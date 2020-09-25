@@ -1,3 +1,5 @@
+import { Override, Data, useAnimation } from "framer";
+
 var boxControl;
 export function Box(): Override {
   boxControl = useAnimation();
