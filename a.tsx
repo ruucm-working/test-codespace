@@ -1,5 +1,4 @@
-import { Override, Data } from "framer";
-import { useAnimation } from "framer";
+import { Override, Data, useAnimation } from "framer";
 
 var boxControl;
 export function Box(): Override {
