@@ -1,12 +1,3 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true,
-});
-exports.Box = Box;
-exports.FrameName = FrameName;
-var boxControl;
-
 function Box() {
   boxControl = useAnimation();
   return {
@@ -23,3 +14,8 @@ function FrameName(props) {
     },
   };
 }
+
+const hey = {
+  Box,
+  FrameName,
+};
