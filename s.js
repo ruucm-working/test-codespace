@@ -1,14 +1,20 @@
-import { Override, Data, Color } from "framer";
+"use strict";
 
+Object.defineProperty(exports, "__esModule", {
+  value: true,
+});
+exports.Box = Box;
+exports.FrameName = FrameName;
 var boxControl;
-export function Box(): Override {
+
+function Box() {
   boxControl = useAnimation();
   return {
     animate: boxControl,
   };
 }
 
-export function FrameName(props): Override {
+function FrameName(props) {
   return {
     onTap: () => {
       boxControl.start({
